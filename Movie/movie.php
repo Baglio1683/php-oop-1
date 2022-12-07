@@ -33,7 +33,17 @@ class Movie
 
     }
 
-//METODI
+    //METODI
+
+    function getName()
+    {
+        return $this->name;
+    }
+
+    function setName($name)
+    {
+        $this->name = $name;
+    }
 
 }
 
