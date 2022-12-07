@@ -40,9 +40,14 @@ class Movie
         return $this->name;
     }
 
-    function setName($name)
+    function print()
     {
-        $this->name = $name;
+        echo $this->name;
+        echo $this->Year;
+        echo $this->Running_time;
+        echo $this->Language;
+        echo $this->Production_Country;
+        echo $this->Budget;
     }
 
 }

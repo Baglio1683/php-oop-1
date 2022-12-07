@@ -22,4 +22,9 @@ $Budget_movie2 = 40;
 $Jurassik_Park = new movie($name_movie1, $year_movie1, $Time_movie1, $language_movie1, $Country_movie1, $Budget_movie1);
 
 
-$JurassiKWorld = new movie($name_movie2, $year_movie2, $Time_movie2, $language_movie2, $Country_movie2, $Budget_movie2); 
+$Jurassik_World = new movie($name_movie2, $year_movie2, $Time_movie2, $language_movie2, $Country_movie2, $Budget_movie2);
+
+
+$Jurassik_Park->print();
+
+$Jurassik_World->print(); 
